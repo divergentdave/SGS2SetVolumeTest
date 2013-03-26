@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SGS2 setVolume Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="aButton">Play Short File</string>
+    <string name="bButton">Play Long File</string><string name="centerButton">Center</string>
+    <string name="leftButton">Pan Left</string>
+    <string name="rightButton">Pan Right</string>
+    <string name="okay">Okay</string>
+    <string name="needHeadphones">Stereo headphones are required</string>
+    <string name="playError">There was an error playing the file</string>
+    <string name="startAFileFirstError">Start playing a file before adjusting the volume</string>
+    <string name="audioFocusError">Couldn\'t gain audio focus, another app is playing music</string>
+    
+
+</resources>
