@@ -1,0 +1,15 @@
+ Client
+  pid(15412), connId(675), status(0), looping(false)
+ AwesomePlayer
+  fd(47), flags(0x00006015), bitrate(128000 bps)
+  Track 1
+   MIME(audio/mpeg), decoder(OMX.SEC.mp3.dec)
+ AudioOutput
+  stream type(3), left - right volume(0.000000, 1.000000)
+  msec per frame(0.000000), latency (-1)
+  aux effect id(0), send level (0.000000)
+
+ No media recorder client
+
+ Files opened and/or mapped:
+  /proc/6024/fd/47 -> /data/app/dnc.setvolumetest-2.apk

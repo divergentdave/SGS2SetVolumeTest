@@ -1,0 +1,96 @@
+Clients:
+  pid: 23774
+  pid: 23805
+  pid: 24035
+  pid: 24172
+Global session refs:
+ session pid cnt
+       2 24172   1
+       3 24035   1
+      10 26429   1
+     720 5950   1
+     721 5950   1
+     723 5950   1
+     724 5950   1
+     725 5950   1
+     726 5950   1
+     727 5950   1
+     728 5950   1
+     729 5950   1
+     730 5950   1
+     830 5950   1
+     843 5950   1
+     851 5950   1
+     852 5950   1
+     854 5950   1
+     863 6817   1
+     898 23894   2
+     984 14188   1
+     985 23805   1
+     986 14188   1
+     987 23805   1
+     988 14188   1
+     989 23805   1
+     990 14188   1
+     991 23805   1
+     992 14188   1
+    1004 14188   1
+    1023 23805   1
+    1081 23805   1
+    1082 15845   1
+Hardware status: 0
+
+Output thread 0x1040ad0 internals
+last write occurred (msecs): 24
+total writes: 31800
+delayed writes: 0
+blocked in write: 0
+suspend count: 0
+mix buffer : 0x1040ce8
+standby: 0
+Sample rate: 44100
+Frame count: 1200
+Channel Count: 2
+Channel Mask: 0x00000003
+Format: 1
+Frame size: 4
+
+Pending setParameters commands: 
+ Index Command
+
+Pending config events: 
+ Index event param
+
+AudioMixer tracks: 0000037f
+Output thread 0x1040ad0 tracks
+   Name  Clien Typ Fmt Chn mask   Session Buf  S M F SRate LeftV RighV  Serv       User       Main buf   Aux Buf
+   00000 24172 000 001 0x00000001 00002   0000 0 0 0 44100 01295 01295  0x00000000 0x00000000 0x01040ce8 0x00000000
+   00001 24035 000 001 0x00000001 00003   0000 0 0 0 44100 01295 01295  0x00000000 0x00000000 0x01040ce8 0x00000000
+   00003 23774 005 001 0x00000001 00898   1200 2 0 0 44100 04096 04096  0x00000000 0x00000000 0x01040ce8 0x00000000
+   00002 23805 001 001 0x00000001 00985   0355 2 0 0 44100 00000 00000  0x00000000 0x00000000 0x01040ce8 0x00000000
+   00009 23805 001 001 0x00000001 01081   0355 2 0 0 44100 00000 00000  0x00000000 0x00000000 0x01040ce8 0x00000000
+   00004 23805 001 001 0x00000001 00987   0355 2 0 0 44100 00000 00000  0x00000000 0x00000000 0x01040ce8 0x00000000
+   00008 23805 001 001 0x00000001 01023   0355 2 0 0 44100 00000 00000  0x00000000 0x00000000 0x01040ce8 0x00000000
+   00005 23805 001 001 0x00000001 00989   0355 2 0 0 44100 00000 00000  0x00000000 0x00000000 0x01040ce8 0x00000000
+   00006 23805 001 001 0x00000001 00991   0355 2 0 0 44100 00000 00000  0x00000000 0x00000000 0x01040ce8 0x00000000
+Output thread 0x1040ad0 active tracks
+   Name  Clien Typ Fmt Chn mask   Session Buf  S M F SRate LeftV RighV  Serv       User       Main buf   Aux Buf
+
+- 0 Effect Chains:
+AudioHardwareBase::dumpState
+	mMode: 0
+AudioHardware::dumpInternals
+	mInit: true
+	mMicMute: true
+	mBluetoothNrec: true
+	mBluetoothId: 0
+AudioStreamOutMSM72xx::dump
+	sample rate: 44100
+	buffer size: 4800
+	channels: 3
+	format: 1
+	mHardware: 0x102f520
+	mFd: 45
+	mStartCount: 0
+	mRetryCount: 0
+	mStandby: false
